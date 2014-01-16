@@ -21,6 +21,10 @@
 		C22282051888417100707BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22281E71888417100707BEC /* UIKit.framework */; };
 		C222820D1888417100707BEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C222820B1888417100707BEC /* InfoPlist.strings */; };
 		C222820F1888417100707BEC /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C222820E1888417100707BEC /* PongTests.m */; };
+		C222821A1888418600707BEC /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22282191888418600707BEC /* BallView.m */; };
+		C222821D1888419200707BEC /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C222821C1888419200707BEC /* PaddleView.m */; };
+		C2228221188849F700707BEC /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = C2228220188849F700707BEC /* paddle.png */; };
+		C222822518884BA600707BEC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C222822418884BA600707BEC /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		C222820A1888417100707BEC /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		C222820C1888417100707BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C222820E1888417100707BEC /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		C22282181888418600707BEC /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallView.h; path = ../BallView.h; sourceTree = "<group>"; };
+		C22282191888418600707BEC /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BallView.m; path = ../BallView.m; sourceTree = "<group>"; };
+		C222821B1888419200707BEC /* PaddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaddleView.h; path = ../PaddleView.h; sourceTree = "<group>"; };
+		C222821C1888419200707BEC /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaddleView.m; path = ../PaddleView.m; sourceTree = "<group>"; };
+		C2228220188849F700707BEC /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		C222822418884BA600707BEC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +122,13 @@
 		C22281E91888417100707BEC /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				C22281F51888417100707BEC /* Main.storyboard */,
 				C22281F21888417100707BEC /* AppDelegate.h */,
 				C22281F31888417100707BEC /* AppDelegate.m */,
-				C22281F51888417100707BEC /* Main.storyboard */,
+				C22282181888418600707BEC /* BallView.h */,
+				C22282191888418600707BEC /* BallView.m */,
+				C222821B1888419200707BEC /* PaddleView.h */,
+				C222821C1888419200707BEC /* PaddleView.m */,
 				C22281F81888417100707BEC /* ViewController.h */,
 				C22281F91888417100707BEC /* ViewController.m */,
 				C22281FB1888417100707BEC /* Images.xcassets */,
@@ -126,6 +140,8 @@
 		C22281EA1888417100707BEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C222822418884BA600707BEC /* ball.png */,
+				C2228220188849F700707BEC /* paddle.png */,
 				C22281EB1888417100707BEC /* Pong-Info.plist */,
 				C22281EC1888417100707BEC /* InfoPlist.strings */,
 				C22281EF1888417100707BEC /* main.m */,
@@ -229,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22281FC1888417100707BEC /* Images.xcassets in Resources */,
+				C222822518884BA600707BEC /* ball.png in Resources */,
+				C2228221188849F700707BEC /* paddle.png in Resources */,
 				C22281EE1888417100707BEC /* InfoPlist.strings in Resources */,
 				C22281F71888417100707BEC /* Main.storyboard in Resources */,
 			);
@@ -252,6 +270,8 @@
 				C22281FA1888417100707BEC /* ViewController.m in Sources */,
 				C22281F41888417100707BEC /* AppDelegate.m in Sources */,
 				C22281F01888417100707BEC /* main.m in Sources */,
+				C222821D1888419200707BEC /* PaddleView.m in Sources */,
+				C222821A1888418600707BEC /* BallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

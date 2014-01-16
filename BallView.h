@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BallView.h
 //  Pong
 //
 //  Created by Andrew Webb on 1/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(IBAction)dragPaddle:(UIPanGestureRecognizer*)panGestureRecognizer;
+@interface BallView : UIView
+
 @end
