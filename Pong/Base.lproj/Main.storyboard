@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAa-R2-B62" customClass="BallView">
-                                <rect key="frame" x="83" y="318" width="30" height="30"/>
+                                <rect key="frame" x="145" y="225" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="P5b-sK-SwD">
@@ -46,24 +46,11 @@
                                     <outletCollection property="gestureRecognizers" destination="7eM-hk-LxU" appends="YES" id="WWe-72-qAW"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cle-WY-xNu" customClass="PaddleView">
-                                <rect key="frame" x="108" y="45" width="104" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="iaP-WL-4Va">
-                                        <rect key="frame" x="0.0" y="0.0" width="104" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <gestureRecognizers/>
-                                    </imageView>
-                                </subviews>
-                                <gestureRecognizers/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="autoPaddleView" destination="Cle-WY-xNu" id="dxz-gb-zl1"/>
                         <outlet property="ballView" destination="OAa-R2-B62" id="m8O-bc-iJo"/>
                         <outlet property="paddleView" destination="HQy-EI-wiN" id="9hJ-fv-HRW"/>
                     </connections>

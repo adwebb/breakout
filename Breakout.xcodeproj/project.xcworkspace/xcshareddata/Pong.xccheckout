@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9CC5034F-2CA3-405C-BC33-3EC193808098</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pong</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>213288D6-1642-447C-876E-7BC04423E828</key>
+		<string>https://github.com/jaredfriedman/MySafari.git</string>
+		<key>AFED8FCA-F83A-4E2D-9149-7D2781B79FB6</key>
+		<string>https://github.com/adwebb/pong</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pong.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>213288D6-1642-447C-876E-7BC04423E828</key>
+		<string>../../../Mobile_Makers</string>
+		<key>AFED8FCA-F83A-4E2D-9149-7D2781B79FB6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adwebb/pong</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AFED8FCA-F83A-4E2D-9149-7D2781B79FB6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>213288D6-1642-447C-876E-7BC04423E828</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile_Makers</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AFED8FCA-F83A-4E2D-9149-7D2781B79FB6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pong</string>
+		</dict>
+	</array>
+</dict>
+</plist>

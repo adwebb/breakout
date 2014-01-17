@@ -25,6 +25,7 @@
 		C222821D1888419200707BEC /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C222821C1888419200707BEC /* PaddleView.m */; };
 		C2228221188849F700707BEC /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = C2228220188849F700707BEC /* paddle.png */; };
 		C222822518884BA600707BEC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C222822418884BA600707BEC /* ball.png */; };
+		F5216DD618888C9A006C780E /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5216DD518888C9A006C780E /* BlockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +39,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C22281E01888417100707BEC /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22281E01888417100707BEC /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22281E31888417100707BEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C22281E51888417100707BEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C22281E71888417100707BEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C22281EB1888417100707BEC /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
+		C22281EB1888417100707BEC /* Breakout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Breakout-Info.plist"; sourceTree = "<group>"; };
 		C22281ED1888417100707BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C22281EF1888417100707BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C22281F11888417100707BEC /* Pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong-Prefix.pch"; sourceTree = "<group>"; };
+		C22281F11888417100707BEC /* Breakout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breakout-Prefix.pch"; sourceTree = "<group>"; };
 		C22281F21888417100707BEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C22281F31888417100707BEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C22281F61888417100707BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C22281F81888417100707BEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C22281F91888417100707BEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C22281FB1888417100707BEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C22282011888417100707BEC /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22282011888417100707BEC /* BreakoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22282021888417100707BEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C222820A1888417100707BEC /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
+		C222820A1888417100707BEC /* BreakoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakoutTests-Info.plist"; sourceTree = "<group>"; };
 		C222820C1888417100707BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C222820E1888417100707BEC /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
 		C22282181888418600707BEC /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallView.h; path = ../BallView.h; sourceTree = "<group>"; };
@@ -63,6 +64,8 @@
 		C222821C1888419200707BEC /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaddleView.m; path = ../PaddleView.m; sourceTree = "<group>"; };
 		C2228220188849F700707BEC /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
 		C222822418884BA600707BEC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		F5216DD418888C9A006C780E /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		F5216DD518888C9A006C780E /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +95,7 @@
 		C22281D71888417100707BEC = {
 			isa = PBXGroup;
 			children = (
-				C22281E91888417100707BEC /* Pong */,
+				C22281E91888417100707BEC /* Breakout */,
 				C22282081888417100707BEC /* PongTests */,
 				C22281E21888417100707BEC /* Frameworks */,
 				C22281E11888417100707BEC /* Products */,
@@ -102,8 +105,8 @@
 		C22281E11888417100707BEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C22281E01888417100707BEC /* Pong.app */,
-				C22282011888417100707BEC /* PongTests.xctest */,
+				C22281E01888417100707BEC /* Breakout.app */,
+				C22282011888417100707BEC /* BreakoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,10 +122,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C22281E91888417100707BEC /* Pong */ = {
+		C22281E91888417100707BEC /* Breakout */ = {
 			isa = PBXGroup;
 			children = (
 				C22281F51888417100707BEC /* Main.storyboard */,
+				F5216DD418888C9A006C780E /* BlockView.h */,
+				F5216DD518888C9A006C780E /* BlockView.m */,
 				C22281F21888417100707BEC /* AppDelegate.h */,
 				C22281F31888417100707BEC /* AppDelegate.m */,
 				C22282181888418600707BEC /* BallView.h */,
@@ -134,6 +139,7 @@
 				C22281FB1888417100707BEC /* Images.xcassets */,
 				C22281EA1888417100707BEC /* Supporting Files */,
 			);
+			name = Breakout;
 			path = Pong;
 			sourceTree = "<group>";
 		};
@@ -142,10 +148,10 @@
 			children = (
 				C222822418884BA600707BEC /* ball.png */,
 				C2228220188849F700707BEC /* paddle.png */,
-				C22281EB1888417100707BEC /* Pong-Info.plist */,
+				C22281EB1888417100707BEC /* Breakout-Info.plist */,
 				C22281EC1888417100707BEC /* InfoPlist.strings */,
 				C22281EF1888417100707BEC /* main.m */,
-				C22281F11888417100707BEC /* Pong-Prefix.pch */,
+				C22281F11888417100707BEC /* Breakout-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +168,7 @@
 		C22282091888417100707BEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C222820A1888417100707BEC /* PongTests-Info.plist */,
+				C222820A1888417100707BEC /* BreakoutTests-Info.plist */,
 				C222820B1888417100707BEC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -171,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C22281DF1888417100707BEC /* Pong */ = {
+		C22281DF1888417100707BEC /* Breakout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C22282121888417100707BEC /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildConfigurationList = C22282121888417100707BEC /* Build configuration list for PBXNativeTarget "Breakout" */;
 			buildPhases = (
 				C22281DC1888417100707BEC /* Sources */,
 				C22281DD1888417100707BEC /* Frameworks */,
@@ -183,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = Pong;
+			name = Breakout;
 			productName = Pong;
-			productReference = C22281E01888417100707BEC /* Pong.app */;
+			productReference = C22281E01888417100707BEC /* Breakout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C22282001888417100707BEC /* PongTests */ = {
+		C22282001888417100707BEC /* BreakoutTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C22282151888417100707BEC /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildConfigurationList = C22282151888417100707BEC /* Build configuration list for PBXNativeTarget "BreakoutTests" */;
 			buildPhases = (
 				C22281FD1888417100707BEC /* Sources */,
 				C22281FE1888417100707BEC /* Frameworks */,
@@ -201,9 +207,9 @@
 			dependencies = (
 				C22282071888417100707BEC /* PBXTargetDependency */,
 			);
-			name = PongTests;
+			name = BreakoutTests;
 			productName = PongTests;
-			productReference = C22282011888417100707BEC /* PongTests.xctest */;
+			productReference = C22282011888417100707BEC /* BreakoutTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C22281DB1888417100707BEC /* Build configuration list for PBXProject "Pong" */;
+			buildConfigurationList = C22281DB1888417100707BEC /* Build configuration list for PBXProject "Breakout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,8 +239,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C22281DF1888417100707BEC /* Pong */,
-				C22282001888417100707BEC /* PongTests */,
+				C22281DF1888417100707BEC /* Breakout */,
+				C22282001888417100707BEC /* BreakoutTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5216DD618888C9A006C780E /* BlockView.m in Sources */,
 				C22281FA1888417100707BEC /* ViewController.m in Sources */,
 				C22281F41888417100707BEC /* AppDelegate.m in Sources */,
 				C22281F01888417100707BEC /* main.m in Sources */,
@@ -288,7 +295,7 @@
 /* Begin PBXTargetDependency section */
 		C22282071888417100707BEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C22281DF1888417100707BEC /* Pong */;
+			target = C22281DF1888417100707BEC /* Breakout */;
 			targetProxy = C22282061888417100707BEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,9 +406,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pong/Breakout-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Breakout-Info.plist";
+				PRODUCT_NAME = Breakout;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,9 +419,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pong/Breakout-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Breakout-Info.plist";
+				PRODUCT_NAME = Breakout;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -435,8 +442,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PongTests/BreakoutTests-Info.plist";
+				PRODUCT_NAME = BreakoutTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,8 +461,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PongTests/BreakoutTests-Info.plist";
+				PRODUCT_NAME = BreakoutTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -464,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C22281DB1888417100707BEC /* Build configuration list for PBXProject "Pong" */ = {
+		C22281DB1888417100707BEC /* Build configuration list for PBXProject "Breakout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C22282101888417100707BEC /* Debug */,
@@ -473,21 +480,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C22282121888417100707BEC /* Build configuration list for PBXNativeTarget "Pong" */ = {
+		C22282121888417100707BEC /* Build configuration list for PBXNativeTarget "Breakout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C22282131888417100707BEC /* Debug */,
 				C22282141888417100707BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C22282151888417100707BEC /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+		C22282151888417100707BEC /* Build configuration list for PBXNativeTarget "BreakoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C22282161888417100707BEC /* Debug */,
 				C22282171888417100707BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
